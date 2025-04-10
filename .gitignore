@@ -1,4 +1,4 @@
-# Python bytecode and cache
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *.so
@@ -10,13 +10,17 @@ env/
 .venv/
 
 # Jupyter Notebook checkpoints
-.ipynb_checkpoints
+.ipynb_checkpoints/
 
 # VSCode settings (optional)
 .vscode/
 
-# Data files
+# Data files (optional: if you don't want to push raw/cleaned datasets)
 data/
+*.csv
+
+# Outputs (optional: if you don't want to push charts/exports)
+outputs/
 
 # OS generated files
 .DS_Store
@@ -25,17 +29,24 @@ Thumbs.db
 # Logs and debug files
 *.log
 
-# CSV or sensitive exports (optional, if you want to exclude data exports)
-*.csv
-
-# Python package management
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Ignore environment files
+# Environment variables
 .env
 .env.*
 
-# Ignore coverage reports
+# Python dependency management
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
 htmlcov/
-.cover
+.coverage
+.tox/
+
+# Tableau project files (optional: if private Tableau dashboards)
+tableau/
+
+# Jupyter Notebook temporary files (optional, good to include)
+*.nbconvert.ipynb
