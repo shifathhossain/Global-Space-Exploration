@@ -19,9 +19,6 @@ env/
 data/
 *.csv
 
-# Outputs (optional: if you don't want to push charts/exports)
-outputs/
-
 # OS generated files
 .DS_Store
 Thumbs.db
