@@ -1,0 +1,41 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode settings (optional)
+.vscode/
+
+# Data files
+data/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and debug files
+*.log
+
+# CSV or sensitive exports (optional, if you want to exclude data exports)
+*.csv
+
+# Python package management
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore coverage reports
+htmlcov/
+.cover
