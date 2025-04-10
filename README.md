@@ -1,4 +1,4 @@
-# Global Space Exploration Data Analysis & Predictive Modeling
+# Global Space Exploration Data Analysis
 
 This project analyzes global space exploration missions from 2000 to 2024, uncovering insights about mission types, budgets, success rates, and technological adoption. Additionally, it features a predictive model using Random Forest Regression to estimate mission success rates based on mission characteristics.
 
