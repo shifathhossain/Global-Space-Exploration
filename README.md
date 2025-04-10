@@ -4,7 +4,7 @@ This project analyzes global space exploration missions from 2000 to 2024, uncov
 
 ## Dataset Overview
 
-- **Source:** Curated Global Space Exploration Dataset (2000–2024)
+- **Source:** [Global Space Exploration Dataset](https://www.kaggle.com/datasets/atharvasoundankar/global-space-exploration-dataset-2000-2025/)
 - **Records:** ~3,000 missions
 - **Features:** Country, Year, Budget, Mission Type, Success Rate, Technology Used, Satellite Type, Duration, Collaborations
 
@@ -53,4 +53,4 @@ This project analyzes global space exploration missions from 2000 to 2024, uncov
 - Incorporate additional data sources (mission complexity, technical specs)
 - Improve predictive model with feature engineering
 - Build an interactive Tableau dashboard
-- Explore classification models (e.g., predicting mission type)
+- Explore classification models ( predicting mission type)
