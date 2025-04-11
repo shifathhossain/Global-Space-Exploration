@@ -1,0 +1,805 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0313.2002                               -->
+<workbook original-version='18.1' source-build='2025.1.0 (20251.25.0313.2002)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Global_Space_Exploration_Dataset' inline='true' name='federated.1y1vbrb0h534ck1cudwo61t8vcsl' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Global_Space_Exploration_Dataset' name='textscan.0c9ooiu0vhowjh1axitlj0vg40tt'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='C:/Users/shifa/Documents/GitHub/Global-Space-Exploration/data/Global_Space_Exploration_Dataset.csv' dataRefreshTime='' directory='C:/Users/shifa/Documents/GitHub/Global-Space-Exploration/data' filename='C:/Users/shifa/AppData/Local/Temp/TableauTemp/1xpp4i91t5n58a1aum62s1kbedze/Global_Space_Exploration_Dataset.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0c9ooiu0vhowjh1axitlj0vg40tt' name='Global_Space_Exploration_Dataset.csv' table='[Global_Space_Exploration_#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:L3001:no:A1:L3001:1' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Country' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='string' name='Mission Name' ordinal='2' />
+            <column datatype='string' name='Mission Type' ordinal='3' />
+            <column datatype='string' name='Launch Site' ordinal='4' />
+            <column datatype='string' name='Satellite Type' ordinal='5' />
+            <column datatype='real' name='Budget (in Billion $)' ordinal='6' />
+            <column datatype='integer' name='Success Rate (%)' ordinal='7' />
+            <column datatype='string' name='Technology Used' ordinal='8' />
+            <column datatype='string' name='Environmental Impact' ordinal='9' />
+            <column datatype='string' name='Collaborating Countries' ordinal='10' />
+            <column datatype='integer' name='Duration (in Days)' ordinal='11' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Global_Space_Exploration_Dataset.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:L3001:no:A1:L3001:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>12000</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Global_Space_Exploration_Dataset.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Global_Space_Exploration_Dataset.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mission Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Mission Name]</local-name>
+            <parent-name>[Global_Space_Exploration_Dataset.csv]</parent-name>
+            <remote-alias>Mission Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mission Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Mission Type]</local-name>
+            <parent-name>[Global_Space_Exploration_Dataset.csv]</parent-name>
+            <remote-alias>Mission Type</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Launch Site</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Launch Site]</local-name>
+            <parent-name>[Global_Space_Exploration_Dataset.csv]</parent-name>
+            <remote-alias>Launch Site</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Satellite Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Satellite Type]</local-name>
+            <parent-name>[Global_Space_Exploration_Dataset.csv]</parent-name>
+            <remote-alias>Satellite Type</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Budget (in Billion $)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Budget (in Billion $)]</local-name>
+            <parent-name>[Global_Space_Exploration_Dataset.csv]</parent-name>
+            <remote-alias>Budget (in Billion $)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Success Rate (%)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Success Rate (%)]</local-name>
+            <parent-name>[Global_Space_Exploration_Dataset.csv]</parent-name>
+            <remote-alias>Success Rate (%)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Technology Used</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Technology Used]</local-name>
+            <parent-name>[Global_Space_Exploration_Dataset.csv]</parent-name>
+            <remote-alias>Technology Used</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Environmental Impact</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Environmental Impact]</local-name>
+            <parent-name>[Global_Space_Exploration_Dataset.csv]</parent-name>
+            <remote-alias>Environmental Impact</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Collaborating Countries</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Collaborating Countries]</local-name>
+            <parent-name>[Global_Space_Exploration_Dataset.csv]</parent-name>
+            <remote-alias>Collaborating Countries</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Duration (in Days)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Duration (in Days)]</local-name>
+            <parent-name>[Global_Space_Exploration_Dataset.csv]</parent-name>
+            <remote-alias>Duration (in Days)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='integer' name='[Year]' role='dimension' type='ordinal' />
+      <column caption='Global_Space_Exploration_Dataset.csv' datatype='table' name='[__tableau_internal_object_id__].[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/shifa/AppData/Local/Temp/TableauTemp/#TableauTemp_17eyugp1rvwvfk13on1og1pnl40t.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='04/10/2025 09:56:57 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Global_Space_Exploration_Dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Global_Space_Exploration_Dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Mission Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Mission Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Mission Name</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Global_Space_Exploration_Dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2925</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Mission Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Mission Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Mission Type</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Global_Space_Exploration_Dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Launch Site</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Launch Site]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Launch Site</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Global_Space_Exploration_Dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1891</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Satellite Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Satellite Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Satellite Type</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Global_Space_Exploration_Dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Budget (in Billion $)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Budget (in Billion $)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Budget (in Billion $)</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Global_Space_Exploration_Dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1610</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Success Rate (%)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Success Rate (%)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Success Rate (%)</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Global_Space_Exploration_Dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Technology Used</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Technology Used]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Technology Used</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Global_Space_Exploration_Dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Environmental Impact</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Environmental Impact]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Environmental Impact</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Global_Space_Exploration_Dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Collaborating Countries</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Collaborating Countries]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Collaborating Countries</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Global_Space_Exploration_Dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>533</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Duration (in Days)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Duration (in Days)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Duration (in Days)</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Global_Space_Exploration_Dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>390</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Global_Space_Exploration_Dataset.csv' id='Global_Space_Exploration_Dataset.csv_71A758E4CBCE47D48F4979D7D61BEB42'>
+            <properties context=''>
+              <relation connection='textscan.0c9ooiu0vhowjh1axitlj0vg40tt' name='Global_Space_Exploration_Dataset.csv' table='[Global_Space_Exploration_#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:L3001:no:A1:L3001:1' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Country' ordinal='0' />
+                  <column datatype='integer' name='Year' ordinal='1' />
+                  <column datatype='string' name='Mission Name' ordinal='2' />
+                  <column datatype='string' name='Mission Type' ordinal='3' />
+                  <column datatype='string' name='Launch Site' ordinal='4' />
+                  <column datatype='string' name='Satellite Type' ordinal='5' />
+                  <column datatype='real' name='Budget (in Billion $)' ordinal='6' />
+                  <column datatype='integer' name='Success Rate (%)' ordinal='7' />
+                  <column datatype='string' name='Technology Used' ordinal='8' />
+                  <column datatype='string' name='Environmental Impact' ordinal='9' />
+                  <column datatype='string' name='Collaborating Countries' ordinal='10' />
+                  <column datatype='integer' name='Duration (in Days)' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Missions Over Time'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Global_Space_Exploration_Dataset' name='federated.1y1vbrb0h534ck1cudwo61t8vcsl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1y1vbrb0h534ck1cudwo61t8vcsl'>
+            <column datatype='string' name='[Mission Name]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='ordinal' />
+            <column-instance column='[Mission Name]' derivation='CountD' name='[ctd:Mission Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1y1vbrb0h534ck1cudwo61t8vcsl].[ctd:Mission Name:qk]</rows>
+        <cols>[federated.1y1vbrb0h534ck1cudwo61t8vcsl].[none:Year:ok]</cols>
+      </table>
+      <simple-id uuid='{25CB2781-73EA-4C7B-80C9-DBDDACF90C92}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Global_Space_Exploration_Dataset' name='federated.1y1vbrb0h534ck1cudwo61t8vcsl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1y1vbrb0h534ck1cudwo61t8vcsl'>
+            <column datatype='string' name='[Mission Name]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Success Rate (%)]' role='measure' type='quantitative' />
+            <column-instance column='[Mission Name]' derivation='CountD' name='[ctd:Mission Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Success Rate (%)]' derivation='Sum' name='[sum:Success Rate (%):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1y1vbrb0h534ck1cudwo61t8vcsl].[ctd:Mission Name:qk]</rows>
+        <cols>[federated.1y1vbrb0h534ck1cudwo61t8vcsl].[sum:Success Rate (%):qk]</cols>
+      </table>
+      <simple-id uuid='{482148B6-4AE7-4017-BDF5-01106DD008E7}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Missions Over Time'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1y1vbrb0h534ck1cudwo61t8vcsl].[none:Mission Name:nk]</field>
+            <field>[federated.1y1vbrb0h534ck1cudwo61t8vcsl].[none:Year:ok]</field>
+            <field>[federated.1y1vbrb0h534ck1cudwo61t8vcsl].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8264BABB-0C24-4EA8-9508-4ED214D11D6A}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1y1vbrb0h534ck1cudwo61t8vcsl].[none:Country:nk]</field>
+            <field>[federated.1y1vbrb0h534ck1cudwo61t8vcsl].[none:Mission Name:nk]</field>
+            <field>[federated.1y1vbrb0h534ck1cudwo61t8vcsl].[none:Mission Type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{759D734F-03D1-4E02-8E9D-064C21DB413A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Missions Over Time' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
