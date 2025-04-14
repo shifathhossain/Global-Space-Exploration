@@ -40,6 +40,9 @@ This project analyzes global space exploration missions from 2000 to 2024, uncov
 - Technology adoption over years
 - Correlation heatmap
 - Feature importance from Random Forest model
+- Tableau:
+  - https://public.tableau.com/app/profile/shifath.hossain/viz/GlobalSpaceExploration/Dashboard1?publish=yes
+  - https://public.tableau.com/app/profile/shifath.hossain/viz/EnvironmentalImpactbyCountry/EnvironmentalImpactbyCountry?publish=yes
 
 ## How to Install
 
